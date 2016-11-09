@@ -1,0 +1,25 @@
+{
+  "name": "node-tarea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinjmartinez/node-crud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinjmartinez/node-crud/issues"
+  },
+  "homepage": "https://github.com/martinjmartinez/node-crud#readme",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-ejs-layouts": "^2.2.0",
+    "mongoose": "^4.6.6"
+  }
+}
