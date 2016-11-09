@@ -1,0 +1,27 @@
+<div class="jumbotron text-center">
+    <h1>Editing <%= comentario.username %></h1>
+</div>
+
+<div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+
+        <form action="/comentarios/<%= comentario._id %>" method="POST">
+
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" name="username" class="form-control" value="<%= comentario.username %>">
+            </div>
+
+            <div class="form-group">
+                <label>Comentario</label>
+                <textarea name="comentario" rows="5" class="form-control"><%= comentario.comentario %></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg">Update</button>
+            </div>
+
+        </form>
+
+    </div>
+</div>
